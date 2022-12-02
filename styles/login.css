@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+input[type=text]:focus
+{
+	background-color: rgba(111,111,111,0.87);
+
+}
+
+input[type=text]{
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+	font-size: 18px;
+}
+
+input[type=password]
+{
+	 width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+	color: black;
+	font-size: 18px;
+}
+
+input[type=password]:focus
+{
+	background-color:  rgba(111,111,111,0.87);
+
+}
+
+input[type=submit] {
+    background-color:#2F2F2F;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    width: 80%;
+	border-radius: 60px;
+}
+
+input[type=submit]:hover {
+    background-color: #2670d8;
+}
+
+input[type=reset]
+{
+	    background-color:#2F2F2F;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    width: 80%;
+	border-radius: 60px;
+}
+
+input[type=reset]:hover {
+     background-color: #df1c44;
+}
+
+input[type=button]
+{
+	    background-color:rgba(255,18,22,1.00);
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    width: 80%;
+	border-radius: 60px;
+}
+
+input[type=button]:hover {
+     background-color: rgba(141,176,104,1.00);
+}
